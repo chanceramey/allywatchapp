@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+<div class="navbar">
+        <div id="logo"><h1><a href="index.html">AllyWatch</a></h1></div>
+            <div class="navbar-item"><a href="#about">About</a></div>
+            <div class="navbar-item"><a href="#contact">Contact</a></div>
+</div>
+
+<div id="jumbo">
+    <h2>A smartwatch app that can save lives.</h2>
+    <button id="show-survey"><a href="#survey">Take Our Survey</a></button>
+</div>
+<section id="about">
+    <p>AllyWatch is a smartwatch application that provides health monitoring services for the elderly. Unlike products like life alert, AllyWatch is inconspicuous and a provides a broad range of features including heart rate monitoring, easy SOS emergency dialing, remote monitoring of loved ones through an online platform, live GPS tracking for those with conditions that affect memory, and more.</p>
+
+</section>
+<iframe id="survey" src="https://docs.google.com/forms/d/e/1FAIpQLSfvBbyTUzAJVDaPcqBVbQ0xs8L99J0X3TV2snMsCdDXhKYYjg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+<section id="contact">
+    <form id="contact-form" method="post" action="mailer.php"> 
+        <h2>CONTACT US</h2>
+        <input id="name" placeholder="Name">
+        <input id="email-address" placeholder="Email Address" type="text">
+        <textarea id="message" placeholder="Anything you want to tell us..." type="text"></textarea>
+        <button id="submit">Submit</button>
+    </form>
+</section>
+
+<section id="footer">
+    <p> &copy; Copyright AllyWatch 2018</p>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="scripts.js"></script>
+
+</body>
+
+</html>
