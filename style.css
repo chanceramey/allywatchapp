@@ -7,9 +7,6 @@ html {
     
 }
 
-body {
-    width: 100%;
-}
 
 h2 {
     text-transform: uppercase;
@@ -83,6 +80,10 @@ a {
     display: block;
     text-align: center;
     padding-top: 170px;
+}
+
+#jumbo h2 {
+    margin-bottom: 50px;
 }
 
 #jumbo a{
