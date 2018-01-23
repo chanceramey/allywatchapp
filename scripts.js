@@ -14,13 +14,11 @@ $(document).ready(function() {
         $(form).attr("visibility", "hidden")
         $("#thankYouMessage").attr("display", "inline")
 
-        return $.ajax({
-            type: "POST",
-            url: "mailer",
-            data: formData,
-          });
+        // return $.ajax({
+        //     type: "POST",
+        //     url: "mailer.php",
+        //     data: formData,
+        //   });
 
-    }).then((response) => {
-            console.log(response)
-        })
+    })
 });

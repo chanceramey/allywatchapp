@@ -141,7 +141,7 @@ a {
 
 }
 
-#contact-form button {
+#contact-form #submit {
     padding: 12px;
     background-color:  rgb(0, 162, 255);
     border: none;
