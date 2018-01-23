@@ -1,38 +1,37 @@
+<!doctype html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">    
-</head>
+<head><link rel="stylesheet" href="style.css"></head>
 <body>
 <div class="navbar">
-        <div id="logo"><a href="index.html"><img src="allywatchlogo.png"></a></h1></div>
+        <div id="logo"><a href="index.html"><img src="allywatchlogo.png"></a></div>
             <div class="navbar-item"><a href="#about">About</a></div>
             <div class="navbar-item"><a href="#contact">Contact</a></div>
 </div>
 
 <div id="jumbo">
     <h2>A smartwatch app that can save lives.</h2>
-    <button id="show-survey"><a href="#survey">Take Our Survey</a></button>
+    <a id="show-survey" href="#survey">Take Our Survey</a>
 </div>
-<section id="about">
+<div id="about">
     <p>AllyWatch is a smartwatch application that provides health monitoring services for the elderly. Unlike products like life alert, AllyWatch is inconspicuous and a provides a broad range of features including heart rate monitoring, easy SOS emergency dialing, remote monitoring of loved ones through an online platform, live GPS tracking for those with conditions that affect memory, and more.</p>
 
-</section>
+</div>
 <iframe id="survey" src="https://docs.google.com/forms/d/e/1FAIpQLSfvBbyTUzAJVDaPcqBVbQ0xs8L99J0X3TV2snMsCdDXhKYYjg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
-<section id="contact">
+<div id="contact">
     <form id="contact-form" action="https://formspree.io/chanceramey@gmail.com" method="POST"> 
         <h2>CONTACT US</h2>
         <input id="name" placeholder="Name" name="name" type="text">
         <input id="email-address" placeholder="Email Address" type="text" name="_replyto">
-        <textarea id="message" placeholder="Anything you want to tell us..." type="text"></textarea>
-        <input type="submit" id="submit"></input>
+        <textarea id="message" placeholder="Anything you want to tell us..." ></textarea>
+        <input type="submit" id="submit">
     </form>
     <h2 id="thankYouMessage">Thank You!</h2>
-</section>
+</div>
 
-<section id="footer">
+<div id="footer">
     <p> &copy; Copyright AllyWatch 2018</p>
-</section>
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="scripts.js"></script>
