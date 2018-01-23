@@ -11,10 +11,16 @@ $(document).ready(function() {
         console.log(form)
         var formData = $(form).serialize()
         console.log(formData)
-        $.ajax({
-            type: 'POST',
-            url: $(form).attr('action'),
-            data: formData
+        $(form).attr("visibility", "hidden")
+        $("#thankYouMessage").attr("display", "inline")
+
+        return $.ajax({
+            type: "POST",
+            url: "mailer",
+            data: formData,
+          });
+
+    }).then((response) => {
+            console.log(response)
         })
-    })
 });
