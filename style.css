@@ -3,7 +3,14 @@ html {
     font-family: "Montserrat", Courier, monospace;
     color: #eeeeee;
     font-weight: lighter;
+    padding: 0;
+    overflow-x: hidden; 
     
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden; 
 }
 
 h2 {
