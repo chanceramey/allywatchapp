@@ -7,9 +7,13 @@ html {
     
 }
 
+body {
+    margin: auto;
+    width: 100%;
+    overflow-x: hidden;
+}
 
 h2 {
-    text-transform: uppercase;
     color: #fff;
 }
 
@@ -25,10 +29,8 @@ p {
     list-style-type: none;
     padding: 0px;
     width: 100%;
-    display: inline-flex;
     display: -webkit-inline-flex;
     color: #fff;
-    background-color: #222222;
 
 } 
 
@@ -38,6 +40,14 @@ p {
 
 .navbar-item {
     padding: 30px 10px 0 10px;
+}
+
+#home {
+    background-image: url('smartwatch.jpeg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 100%;
+    display: flex;
 }
 
 #logo {
@@ -73,21 +83,19 @@ a {
     height: 400px;
     width: 100%;
     margin: 0px;
-    background-image: url('smartwatch.jpeg');
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: 100%;
     display: block;
     text-align: center;
     padding-top: 170px;
 }
 
-#jumbo h2 {
+#jumbo h1 {
     margin-bottom: 50px;
 }
 
-#jumbo a{
+#jumbo a {
     padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color:  rgb(0, 162, 255);
     border: none;
     border-radius: 20px;
@@ -95,6 +103,11 @@ a {
     font-weight: lighter;
     text-transform: uppercase;
     font-size: 14px;
+}
+
+#jumbo a:hover {
+    background-color:  rgba(0, 170, 255, 0.651);
+    
 }
 
 #about {
@@ -157,7 +170,7 @@ a {
     text-transform: uppercase;
     font-size: 14px;
     width: 100%;
-    margin: 5px;
+    margin: 2.5%;
 }
 
 #footer {
